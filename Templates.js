@@ -150,7 +150,9 @@ const Templates = () => {
                     </View>
                     <View style={{width:'90%',height:'3%',marginTop:'-4%',flexDirection:'row',paddingLeft:'2%'}}>
                         <Text style={{fontWeight:'bold',fontSize:12,}}>AirState Solution</Text>
-                        <AntDesign name="export" size={16} color="#2EBCAE" style={{top:'1%'}}/>
+                        <TouchableOpacity>
+                            <AntDesign name="export" size={14} color="#2EBCAE" style={{top:'1%'}}/>
+                        </TouchableOpacity>
                     </View>
                     <View style={{width:'96%',height:'3%',marginTop:'-5%',flexDirection:'row',justifyContent:'space-between',padding:'1.5%'}}>
                         <Text style={{fontWeight:'bold',fontSize:10,color:"#2EBCAE"}}>08/2012-06/2014</Text>
